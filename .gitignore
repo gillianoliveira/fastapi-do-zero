@@ -193,3 +193,8 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
+.python-version
+.venv
+fast_zero/tests/*
+.pytest_cache
+.pytest_cache/*

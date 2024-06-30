@@ -33,16 +33,62 @@ Slides: [https://github.com/dunossauro/fastapi-do-zero/tree/main/slides/pdf](htt
 * bots
 
 # Tecnologias
-
-* Linguagem: Python
+* SO: Windows 11
+* Linguagem: Python 3.12.4
 * Framework: FastAPI
+* Gerenciador de pacotes: Poetry
 
 Em construção...
 
 
-# Comandos utilizados
+# Anotações
+
+# Comandos utilizados ()
 
 Enquanto o repositório estiver desenvolvido vou colocar os comandos por aqui para facilitar a consulta.
 
+## Ambiente Virtual
 
+Instação do Python no Pyenv:
+```txt
+pyenv install 3.12.4
+```
 
+Configurar o Python no projeto:
+```txt
+pyenv local 3.12.4
+```
+
+Criar o ambiente virtual com Poetry:
+```txt
+poetry new nome_projeto
+```
+
+Ativar o ambiente virtual criado com Poetry:
+```txt
+poetry shell
+```
+
+Adicionar um pacote ao projeto com poetry:
+```txt
+poetry add nome_pacote
+```
+
+Rodar uma aplicação com fastapi:
+```txt
+# fastapi dev nome_ambiente/arquivo.py
+fastapi dev fast_zero/app.py
+```
+
+## Documentação
+Existe mais de uma forma de visualizar a documentação:
+
+Swagger
+```txt
+http://127.0.0.1:8000/docs
+```
+Redoc
+```txt
+http://127.0.0.1:8000/redoc
+```
+1:21:21

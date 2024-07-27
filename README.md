@@ -1,13 +1,13 @@
-<div style="background-color: #7E56C1; padding: 20px;">
-<img src="img/dino.jpg" alt="Dino" width="100" height="100">
+![](img/dunosauro-fastapi-sincrono-python.jpg)
 <h1>Curso de FastAPI - Sincrono</h1>
-</div>
+
 <br>
 
 
 # Sobre
 Instrutor: Eduardo Mendes<br />
 Canal: Eduardo Mendes <br />
+Plataforma: YouTube
 Aula: 0/14<br />
 ⭐⭐⭐⭐⭐<br />
 
